@@ -1,0 +1,8 @@
+[package]
+name = "c_0012_clap_derive"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# cargo add clap@4 --features derive
+clap = { version = "4", features = ["derive"] }
